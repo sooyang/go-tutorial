@@ -1,8 +1,14 @@
-//rectprops.go
 package rectangle
 
-import "math"
+import "math"  
+import "fmt"
 
+/*
+ * init function added
+ */
+func init() {  
+    fmt.Println("rectangle package initialized")
+}
 func Area(len, wid float64) float64 {  
     area := len * wid
     return area
